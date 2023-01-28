@@ -13,7 +13,7 @@ class UserLoginImpDatasource implements UserLoginDatasource {
   @override
   Future<Map<String, dynamic>> call(String email, String password) async {
     var res = await _clientHttps.post(
-      '/api/register',
+      '/oauth/token',
       data: {
         "grant_type": "password",
         "client_id": "985050c9-a833-4c55-97b3-eb0752be20e9",
