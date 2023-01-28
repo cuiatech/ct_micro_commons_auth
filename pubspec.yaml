@@ -1,0 +1,36 @@
+name: flut_micro_commons_auth
+description: 
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dependency_overrides:
+  flut_micro_commons_dependencies:
+    path: ../flut_micro_commons_dependencies
+    # git:
+    #   url: "https://github.com/cuiatech/flut_micro_commons_dependencies.git"
+    #   ref: "master"
+  flut_micro_commons_client_https:
+    path: ../flut_micro_commons_client_https
+    # git:
+    #   url: "https://github.com/cuiatech/flut_micro_commons_client_https.git"
+    #   ref: "master"
+  flut_micro_commons_shared:
+    path: ../flut_micro_commons_shared
+    # git:
+    #   url: "https://github.com/cuiatech/flut_micro_commons_shared.git"
+    #   ref: "master"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
