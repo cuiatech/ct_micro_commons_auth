@@ -2,7 +2,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 import '../../data/datasources/user_login_datasource.dart';
 import 'package:flut_micro_commons_client_https/flut_micro_commons_client_https.dart';
 import 'package:flut_micro_commons_dependencies/flut_micro_commons_dependencies.dart';
-import 'package:flut_micro_commons_shared/shared/utils/env.dart';
+import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
 
 final $UserLoginImpDatasource = Bind.lazySingleton(
   (i) => UserLoginImpDatasource(i()),
@@ -29,9 +29,8 @@ class UserLoginImpDatasource implements UserLoginDatasource {
         },
       );
 
-      final prefs = await SharedPreferences.getInstance();
-      await prefs.setString('access_token', res.data['access_token']);
-      await prefs.setString('refresh_token', res.data['refresh_token']);
+      await LocalStorage.set('access_token', res.data['access_token']);
+      await LocalStorage.set('refresh_token', res.data['refresh_token']);
 
       return res.data;
     } catch (e) {
