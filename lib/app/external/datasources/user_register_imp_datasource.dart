@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter_modular/flutter_modular.dart';
 import '../../data/datasources/user_register_datasource.dart';
 import 'package:flut_micro_commons_client_https/flut_micro_commons_client_https.dart';

@@ -1,4 +1,6 @@
 // import 'package:flutter/material.dart';
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flut_micro_commons_auth/app/data/repositories/user_forgot_password_imp_repository.dart';
 import 'package:flut_micro_commons_auth/app/data/repositories/user_login_imp_repository.dart';
 import 'package:flut_micro_commons_auth/app/data/repositories/user_register_imp_repository.dart';
