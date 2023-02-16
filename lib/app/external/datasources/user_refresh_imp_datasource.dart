@@ -4,8 +4,8 @@ import 'dart:convert';
 
 import 'package:flutter_modular/flutter_modular.dart';
 import '../../data/datasources/user_refresh_datasource.dart';
-import 'package:flut_micro_commons_client_https/flut_micro_commons_client_https.dart';
-import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
+import 'package:ct_micro_commons_client_https/ct_micro_commons_client_https.dart';
+import 'package:ct_micro_commons_shared/ct_micro_commons_shared.dart';
 
 final $UserRefreshImpDatasource = Bind.lazySingleton(
   (i) => UserRefreshImpDatasource(i()),

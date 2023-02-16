@@ -3,7 +3,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import '../../domain/repositories/user_forgot_password_repository.dart';
 import '../datasources/user_forgot_password_datasource.dart';
-import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
+import 'package:ct_micro_commons_shared/ct_micro_commons_shared.dart';
 
 final $UserForgotPasswordImpRepository = Bind.lazySingleton(
   (i) => UserForgotPasswordImpRepository(i.get()),

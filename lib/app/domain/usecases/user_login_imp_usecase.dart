@@ -3,7 +3,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'user_login_usecase.dart';
 import '../repositories/user_login_repository.dart';
-import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
+import 'package:ct_micro_commons_shared/ct_micro_commons_shared.dart';
 
 final $UserLoginImpUsecase = Bind.lazySingleton(
   (i) => UserLoginImpUsecase(i.get()),

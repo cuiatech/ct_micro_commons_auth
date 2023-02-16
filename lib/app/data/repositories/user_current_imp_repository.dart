@@ -1,10 +1,10 @@
 // ignore_for_file: depend_on_referenced_packages
 
-import 'package:flut_micro_commons_auth/app/domain/models/dtos/user_dto_dto.dart';
+import 'package:ct_micro_commons_auth/app/domain/models/dtos/user_dto_dto.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import '../../domain/repositories/user_current_repository.dart';
 import '../datasources/user_current_datasource.dart';
-import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
+import 'package:ct_micro_commons_shared/ct_micro_commons_shared.dart';
 
 final $UserCurrentImpRepository = Bind.lazySingleton(
   (i) => UserCurrentImpRepository(i.get()),

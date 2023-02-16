@@ -3,7 +3,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'user_current_usecase.dart';
 import '../repositories/user_current_repository.dart';
-import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
+import 'package:ct_micro_commons_shared/ct_micro_commons_shared.dart';
 
 final $UserCurrentImpUsecase = Bind.lazySingleton(
   (i) => UserCurrentImpUsecase(i.get()),

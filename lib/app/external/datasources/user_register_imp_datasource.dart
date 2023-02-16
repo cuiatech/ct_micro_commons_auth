@@ -2,7 +2,7 @@
 
 import 'package:flutter_modular/flutter_modular.dart';
 import '../../data/datasources/user_register_datasource.dart';
-import 'package:flut_micro_commons_client_https/flut_micro_commons_client_https.dart';
+import 'package:ct_micro_commons_client_https/ct_micro_commons_client_https.dart';
 
 final $UserRegisterImpDatasource = Bind.lazySingleton(
   (i) => UserRegisterImpDatasource(i()),

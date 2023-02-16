@@ -4,7 +4,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 import '../../domain/models/dtos/user_dto_dto.dart';
 import '../../domain/repositories/user_refresh_repository.dart';
 import '../datasources/user_refresh_datasource.dart';
-import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
+import 'package:ct_micro_commons_shared/ct_micro_commons_shared.dart';
 
 final $UserRefreshImpRepository = Bind.lazySingleton(
   (i) => UserRefreshImpRepository(i.get()),

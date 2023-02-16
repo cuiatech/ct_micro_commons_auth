@@ -3,7 +3,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'user_forgot_password_usecase.dart';
 import '../repositories/user_forgot_password_repository.dart';
-import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
+import 'package:ct_micro_commons_shared/ct_micro_commons_shared.dart';
 
 final $UserForgotPasswordImpUsecase = Bind.lazySingleton(
   (i) => UserForgotPasswordImpUsecase(i.get()),
