@@ -1,5 +1,3 @@
-// ignore_for_file: depend_on_referenced_packages
-
 import 'package:flutter_modular/flutter_modular.dart';
 import '../../data/datasources/user_login_datasource.dart';
 import 'package:ct_micro_commons_client_https/ct_micro_commons_client_https.dart';

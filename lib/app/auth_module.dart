@@ -1,5 +1,4 @@
 // import 'package:flutter/material.dart';
-// ignore_for_file: depend_on_referenced_packages
 
 import 'package:ct_micro_commons_auth/app/data/repositories/user_current_imp_repository.dart';
 import 'package:ct_micro_commons_auth/app/data/repositories/user_forgot_password_imp_repository.dart';

@@ -1,5 +1,3 @@
-// ignore_for_file: depend_on_referenced_packages
-
 import 'package:flutter_modular/flutter_modular.dart';
 import '../../domain/models/dtos/user_dto_dto.dart';
 import '../../domain/repositories/user_refresh_repository.dart';

@@ -1,5 +1,3 @@
-// ignore_for_file: depend_on_referenced_packages
-
 import 'package:flutter_modular/flutter_modular.dart';
 import '../../domain/repositories/user_send_validation_email_repository.dart';
 import '../datasources/user_send_validation_email_datasource.dart';

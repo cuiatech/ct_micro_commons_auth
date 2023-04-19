@@ -1,5 +1,3 @@
-// ignore_for_file: depend_on_referenced_packages
-
 import 'package:flutter_modular/flutter_modular.dart';
 import 'user_forgot_password_usecase.dart';
 import '../repositories/user_forgot_password_repository.dart';
